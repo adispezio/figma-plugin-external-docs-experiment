@@ -6,10 +6,9 @@ onmessage = (event) => {
 }
 
 function updateiFrame(string) {
-    console.log(string)
     const regex = /(.*@api\/components\/)(.*)/;
     const found = string.match(regex);
-    console.log(found[2]);
+    //console.log(found[2]);
 
     docFrame.src = srcURI + found[2];
 }

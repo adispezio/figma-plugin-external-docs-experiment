@@ -1,4 +1,5 @@
 # External Docs - Figma Plugin Experiment
+![Hero Gif](/static/plugin-experiment-docs.gif)
 A plugin experiment to show related external documentation for a selected component/instance.
 
 ## How it works
