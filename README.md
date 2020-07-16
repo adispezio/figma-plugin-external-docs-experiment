@@ -1,5 +1,5 @@
 # External Docs - Figma Plugin Experiment
-![Hero Gif](/static/plugin-experiment-docs.gif)
+<img src="/static/plugin-experiment-docs.gif" width=50% height=50%>
 A plugin experiment to show related external documentation for a selected component/instance.
 
 ## How it works
