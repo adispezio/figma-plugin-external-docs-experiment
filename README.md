@@ -9,7 +9,7 @@ The plugin reads the component description of the currently selected component a
 I've used Github Primer and the Primer docs as an example as this requires cross-origin requests and not a lot of public styleguides have this enabled :)
 
 ## Thoughts
-This is a very simple approach to a very powerful concept. A lot of design systems and/or dev teams have exsiting docs that would be valuable to reference while designing - why not pull them straight in!
+This is a very simple approach to a very powerful concept. A lot of design systems and/or dev teams have existing docs that would be valuable to reference while designing - why not pull them straight in!
 
 There's a lot of fragility and room for human error by matching text strings and I could imagine a much more robust approach with:
 - uuid references instead of text
