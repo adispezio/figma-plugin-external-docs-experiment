@@ -1,44 +1,19 @@
-//vars
-const createShapesButton = document.querySelector('#createShapes');
-const cancelButton = document.querySelector('#cancel');
-const shapeMenu = document.querySelector('#shape');
-const countInput = document.querySelector('#count');
+const docFrame = document.querySelector('#docFrame');
+const srcURI = 'https://primer.style/components/'
 
-//on load function
-document.addEventListener("DOMContentLoaded", function() {
-    formValidation();
-});
-
-//initialize select menu
-selectMenu.init();
-
-//event listeners
-countInput.oninput = () => { formValidation(); }
-shapeMenu.onchange = () => { formValidation(); }
-createShapesButton.onclick = () => { createShapes(); }
-cancelButton.onclick = () => { cancel(); }
-
-//form validation
-var formValidation = function(event) {
-
-    if (shapeMenu.value === '' || countInput.value === '') {
-        createShapesButton.disabled = true;
-    } else {
-        createShapesButton.disabled = false;
-    }
+onmessage = (event) => {
+    updateiFrame(event.data.pluginMessage);    
 }
 
+function updateiFrame(string) {
+    console.log(string)
+    const regex = /(.*@api\/components\/)(.*)/;
+    const found = string.match(regex);
+    console.log(found[2]);
 
-
-//functions
-function createShapes() {
-    parent.postMessage({ pluginMessage: { 
-        'type': 'create-shapes', 
-        'count': countInput.value,
-        'shape': shapeMenu.value
-    } }, '*');
+    docFrame.src = srcURI + found[2];
 }
 
-function cancel() {
-    parent.postMessage({ pluginMessage: { 'type': 'cancel' } }, '*')
+function updateURL(component) {
+    docFrame.src = component;
 }

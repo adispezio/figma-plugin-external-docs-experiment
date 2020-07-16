@@ -1,7 +1,7 @@
 {
-  "name": "frontend-boilerplate",
+  "name": "figma-plugin-external-docs-experiment",
   "version": "1.0.0",
-  "description": "Boilerplate for creating Figma Plugins",
+  "description": "External Docs - Figma Plugin Experiment",
   "main": "gulpfile.js",
   "scripts": {
     "build": "gulp --production",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thecodercoder/frontend-boilerplate.git"
+    "url": "git+https://github.com/adispezio/figma-plugin-external-docs-experiment.git"
   },
   "keywords": [
     "gulp",
@@ -18,12 +18,12 @@
     "css",
     "javascript"
   ],
-  "author": "@thecodercoder",
+  "author": "@adispezio",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/thecodercoder/frontend-boilerplate/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/thecodercoder/frontend-boilerplate#readme",
+  "homepage": "https://github.com/adispezio/figma-plugin-external-docs-experiment#readme",
   "devDependencies": {
     "@figma/plugin-typings": "^1.15.0",
     "autoprefixer": "^9.7.6",
