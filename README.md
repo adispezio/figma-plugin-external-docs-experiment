@@ -22,4 +22,4 @@ I don't have any further plans for this experiment - but perhaps it will be usef
 
 ## Thanks
 - [@thomas-lowry](https://github.com/thomas-lowry) and the invaluable [Figma Plugin Boilerplate (FPB)](https://github.com/thomas-lowry/figma-plugin-boilerplate#intro)
-- The Primer team for their amazing styleguide and their [Primer Web Figma Community File](https://www.figma.com/community/file/854767373644076713)
+- The [Primer](https://github.com/primer) team for their amazing [styleguide](https://primer.style/) and their [Primer Web Figma Community File](https://www.figma.com/community/file/854767373644076713)
